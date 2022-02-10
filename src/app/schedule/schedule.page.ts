@@ -30,7 +30,7 @@ export class SchedulePage implements OnInit {
     mediaPlaybackRequiresUserAction : 'no',
     shouldPauseOnSuspend : 'no', //Android only 
     closebuttoncaption : 'Close', //iOS only
-    disallowoverscroll : 'no', //iOS only 
+    disallowoverscroll : 'yes', //iOS only 
     toolbar : 'yes', //iOS only 
     enableViewportScale : 'yes', //iOS only 
     allowInlineMediaPlayback : 'no',//iOS only 
