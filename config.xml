@@ -56,6 +56,8 @@
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
+        <preference name="PreferredContentMode" value="mobile" />
+        <preference name="InAppBrowserStatusBarStyle" value="lightcontent" />
         <preference name="KeyboardResize" value="false" />
         <preference name="LottieFadeOutDuration" value="1" />
         <preference name="SwiftVersion" value="5" />

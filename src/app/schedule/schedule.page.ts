@@ -1,13 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { InAppBrowser, InAppBrowserOptions } from '@awesome-cordova-plugins/in-app-browser/ngx';
 
-
-//Attorney Data; An array of 'attorney info objects'
-//To add an attorney, add to 'users' array[] with the given attorney info as an object{} as shown below.
-//[Note]: You must provide a 'key', a sequential number. 
-//[Note]: You also must fill-in all information e.g., name, linkedin, avvo, otherlink, about, expertise, languages, location, ect..
-
-
  
 @Component({
   selector: 'app-schedule',

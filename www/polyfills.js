@@ -3583,6 +3583,10 @@ __webpack_require__.r(__webpack_exports__);
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+window.global = window;
+window.process = {
+    env: { DEBUG: undefined },
+};
 
 
 /***/ }),
@@ -4426,7 +4430,7 @@ module.exports = !fails(function () {
 
 /***/ }),
 
-/***/ 17453:
+/***/ 46196:
 /*!***********************************************************************!*\
   !*** ./node_modules/core-js/internals/create-iterator-constructor.js ***!
   \***********************************************************************/
@@ -4500,7 +4504,7 @@ module.exports = function (bitmap, value) {
 "use strict";
 
 var $ = __webpack_require__(/*! ../internals/export */ 51163);
-var createIteratorConstructor = __webpack_require__(/*! ../internals/create-iterator-constructor */ 17453);
+var createIteratorConstructor = __webpack_require__(/*! ../internals/create-iterator-constructor */ 46196);
 var getPrototypeOf = __webpack_require__(/*! ../internals/object-get-prototype-of */ 3963);
 var setPrototypeOf = __webpack_require__(/*! ../internals/object-set-prototype-of */ 91464);
 var setToStringTag = __webpack_require__(/*! ../internals/set-to-string-tag */ 58242);
