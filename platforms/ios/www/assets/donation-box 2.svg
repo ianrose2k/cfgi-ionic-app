@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1880 1880" style="enable-background:new 0 0 1880 1880;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FAC007;}
+	.st1{fill:none;stroke:#231F20;stroke-width:53.6549;stroke-miterlimit:10;}
+	.st2{fill:#FAC007;stroke:#231F20;stroke-width:53.6549;stroke-miterlimit:10;}
+	.st3{fill:#231F20;}
+</style>
+<g id="Layer_1">
+</g>
+<g id="Circle">
+	<circle class="st0" cx="940" cy="940" r="925.04"/>
+</g>
+<g id="box">
+	<polygon class="st1" points="359.47,1100.54 781.34,1266.46 940,1127.01 1086.71,1266.46 1528.02,1100.54 1356.78,957.56 
+		943.75,802.23 527.16,962.85 	"/>
+	<g id="Layer_4">
+	</g>
+	<path class="st1" d="M520.1,961.09c140.62,50.01,281.25,100.02,421.87,150.04c135.92-50.01,271.83-100.02,407.75-150.04"/>
+	<line class="st1" x1="940" y1="1142.9" x2="940" y2="1506.52"/>
+	<polyline class="st1" points="498.92,1169.38 498.92,1347.66 940,1513.58 1379.73,1341.48 1379.73,1169.38 	"/>
+</g>
+<g id="heart">
+	<path class="st2" d="M940,413.83c0,0-68.13-78.5-170.46-78.5s-201.55,82.03-201.55,201.55s110.7,217.43,191.85,287.11
+		S940,960.71,940,960.71"/>
+	<path class="st2" d="M940,413.83c0,0,68.13-78.5,170.46-78.5c102.32,0,201.55,82.03,201.55,201.55s-110.7,217.43-191.85,287.11
+		S940,960.71,940,960.71"/>
+	<circle class="st3" cx="940" cy="423" r="20.82"/>
+	<circle class="st3" cx="940" cy="967.62" r="20.82"/>
+</g>
+</svg>
