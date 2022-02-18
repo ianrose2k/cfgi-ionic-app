@@ -147,6 +147,8 @@
     <preference name="LottieFullScreen" value="false" />
     <preference name="LottieBackgroundColor" value="#EEEEEE" />
     <preference name="LottieLoopAnimation" value="true" />
+    <preference name="PreferredContentMode" value="mobile" />
+    <preference name="InAppBrowserStatusBarStyle" value="lightcontent" />
     <preference name="KeyboardResize" value="false" />
     <preference name="LottieFadeOutDuration" value="1" />
     <preference name="SwiftVersion" value="5" />
