@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { InAppBrowser, InAppBrowserOptions } from '@awesome-cordova-plugins/in-app-browser/ngx';
+import { InAppBrowser, InAppBrowserOptions } from '@ionic-native/in-app-browser/ngx';
 
  
 @Component({
@@ -35,8 +35,7 @@ export class SchedulePage implements OnInit {
     this.iab.create(url,target,this.options);
   }
   public openWithInAppBrowser(url){
-    let target = "_blank";
-    this.iab.create(url,target,this.options);
+    this.iab.create(url,'_blank',this.options);
   }
   public openWithCordovaBrowser(url){
     let target = "_self";

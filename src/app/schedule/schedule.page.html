@@ -86,7 +86,7 @@
             <!-- Button to schedule with lawyer via Calendly, if Calendly link is provided -->
             <ion-card-content  *ngIf="lawyer.calendly">
               <!-- In App Browser help: https://www.techiediaries.com/inappbrowser-ionic-v3/ -->
-              <ion-button (click)="openWithCordovaBrowser(lawyer.calendly)" id="schedule_button" > Schedule with {{lawyer.fname}}</ion-button>
+              <ion-button (click)="openWithInAppBrowser(lawyer.calendly)" id="schedule_button" > Schedule with {{lawyer.fname}}</ion-button>
             </ion-card-content>
 
             <!-- If no Calendly link is provided, button is replaced with text telling the user 
