@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">cfgi-app-test</string>
+    <string name="title_activity_main">cfgi-app-test</string>
+    <string name="package_name">world.cfgi.app</string>
+    <string name="custom_url_scheme">world.cfgi.app</string>
+</resources>

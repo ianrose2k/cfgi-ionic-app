@@ -15,7 +15,6 @@ export class SchedulePage implements OnInit {
   }
   options : InAppBrowserOptions = {
     location : 'yes',//Or 'no' 
-    hidden : 'yes', //Or  'yes'
     clearcache : 'yes',
     clearsessioncache : 'yes',
     zoom : 'yes',//Android only ,shows browser zoom controls 
@@ -31,15 +30,13 @@ export class SchedulePage implements OnInit {
     fullscreen : 'yes',//Windows only    
   };
   public openWithSystemBrowser(url: string){
-    let target = "_system";
-    this.iab.create(url,target,this.options);
+    this.iab.create(url,"_system");
   }
   public openWithInAppBrowser(url){
-    this.iab.create(url,'_blank',this.options);
+    this.iab.create(url,'_blank');
   }
   public openWithCordovaBrowser(url){
-    let target = "_self";
-    this.iab.create(url,target,this.options);
+    this.iab.create(url,"_self");
   }  
   hideAvvo:boolean = true;
   hideLinkedin:boolean=true;

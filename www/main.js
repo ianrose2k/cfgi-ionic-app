@@ -94,10 +94,6 @@ const routes = [
         path: 'david-modal',
         loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_david-modal_david-modal_page_ts"), __webpack_require__.e("src_app_david-modal_david-modal_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./david-modal/david-modal.module */ 69514)).then(m => m.DavidModalPageModule)
     },
-    {
-        path: 'variables',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_variables_variables_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./variables/variables.module */ 76817)).then(m => m.VariablesPageModule)
-    },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
