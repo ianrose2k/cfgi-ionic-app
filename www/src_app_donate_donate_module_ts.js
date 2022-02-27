@@ -95,22 +95,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "DonatePage": () => (/* binding */ DonatePage)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 64762);
 /* harmony import */ var _raw_loader_donate_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./donate.page.html */ 98051);
 /* harmony import */ var _donate_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./donate.page.scss */ 24686);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _capacitor_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @capacitor/browser */ 28427);
+
 
 
 
 
 let DonatePage = class DonatePage {
     constructor() { }
+    openLink(Url) {
+        return (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__awaiter)(this, void 0, void 0, function* () {
+            yield _capacitor_browser__WEBPACK_IMPORTED_MODULE_2__.Browser.open({ url: Url });
+        });
+    }
     ngOnInit() {
     }
 };
 DonatePage.ctorParameters = () => [];
-DonatePage = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
-    (0,_angular_core__WEBPACK_IMPORTED_MODULE_3__.Component)({
+DonatePage = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_4__.Component)({
         selector: 'app-donate',
         template: _raw_loader_donate_page_html__WEBPACK_IMPORTED_MODULE_0__.default,
         styles: [_donate_page_scss__WEBPACK_IMPORTED_MODULE_1__.default]
@@ -147,7 +154,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-content style=\"overflow:hidden\">\n  <ion-grid>\n    <ion-row>\n      <img src=\"./assets/arrow-left.svg\" id=\"left_arrows\" />\n    </ion-row>\n    <ion-row>\n      <img src=\"./assets/arrow-right.svg\" id=\"right_arrows\" />\n    </ion-row>\n    <ion-row>\n      <ion-text id=\"inspired_title\">\n        Inspired to Give\n      </ion-text>\n    </ion-row>\n    <ion-row>\n      <ion-text id=\"donate_title\">\n        Donate <br> Now\n      </ion-text>\n      <script src=\"https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js\"></script>\n      <lottie-player src=\"https://assets7.lottiefiles.com/packages/lf20_m3jxbvag.json\"  id=\"donate_img\" background=\"transparent\"  speed=\"1\"  renderer=\"svg\" style=\"width: 200px; height: 200px;\"  loop autoplay></lottie-player>\n      <!--<img src=\"./assets/donation-box.svg\" id=\"donate_img\"/>-->\n    </ion-row>\n    <ion-row>\n      <ion-text id=\"donate_description\">\n        With your donation, <br>we can continue to support <br>\n        international students with <br>financial assistance, \n        legal help, <br>and job opportunities, so that they can stay and thrive in the United States.\n      </ion-text>\n    </ion-row>\n    <ion-row>\n      <ion-button id=\"donate_button\" href=\"https://www.paypal.com/donate?hosted_button_id=SXQDLBKH55C42\">\n        Donate\n      </ion-button>\n    </ion-row>\n    <ion-row>\n      <ion-text id=\"donate_footer_text\">\n        HELP INTERNATIONAL STUDENTS <br>REACH FOR THE AMERICAN DREAM\n      </ion-text>\n      <ion-icon id=\"sun_img\" name=\"sunny-outline\"></ion-icon>\n    </ion-row>\n  </ion-grid>");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-content style=\"overflow:hidden\">\n  <ion-grid>\n    <ion-row>\n      <img src=\"./assets/arrow-left.svg\" id=\"left_arrows\" />\n    </ion-row>\n    <ion-row>\n      <img src=\"./assets/arrow-right.svg\" id=\"right_arrows\" />\n    </ion-row>\n    <ion-row>\n      <ion-text id=\"inspired_title\">\n        Inspired to Give\n      </ion-text>\n    </ion-row>\n    <ion-row>\n      <ion-text id=\"donate_title\">\n        Donate <br> Now\n      </ion-text>\n      <script src=\"https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js\"></script>\n      <lottie-player src=\"https://assets7.lottiefiles.com/packages/lf20_m3jxbvag.json\"  id=\"donate_img\" background=\"transparent\"  speed=\"1\"  renderer=\"svg\" style=\"width: 200px; height: 200px;\"  loop autoplay></lottie-player>\n      <!--<img src=\"./assets/donation-box.svg\" id=\"donate_img\"/>-->\n    </ion-row>\n    <ion-row>\n      <ion-text id=\"donate_description\">\n        With your donation, <br>we can continue to support <br>\n        international students with <br>financial assistance, \n        legal help, <br>and job opportunities, so that they can stay and thrive in the United States.\n      </ion-text>\n    </ion-row>\n    <ion-row>\n      <ion-button id=\"donate_button\" (click)=\"openLink('https://www.paypal.com/donate?hosted_button_id=SXQDLBKH55C42')\">\n        Donate\n      </ion-button>\n    </ion-row>\n    <ion-row>\n      <ion-text id=\"donate_footer_text\">\n        HELP INTERNATIONAL STUDENTS <br>REACH FOR THE AMERICAN DREAM\n      </ion-text>\n      <ion-icon id=\"sun_img\" name=\"sunny-outline\"></ion-icon>\n    </ion-row>\n  </ion-grid>");
 
 /***/ })
 

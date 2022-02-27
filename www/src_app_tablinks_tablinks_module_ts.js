@@ -34,7 +34,7 @@ const routes = [
             },
             {
                 path: 'donate',
-                loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_ng-lottie___ivy_ngcc___dist_esm_src_index_js"), __webpack_require__.e("src_app_donate_donate_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../donate/donate.module */ 53589)).then(m => m.DonatePageModule)
+                loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_ng-lottie___ivy_ngcc___dist_esm_src_index_js"), __webpack_require__.e("default-node_modules_capacitor_browser_dist_esm_index_js"), __webpack_require__.e("src_app_donate_donate_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../donate/donate.module */ 53589)).then(m => m.DonatePageModule)
             },
             {
                 path: 'request-aid',
@@ -46,7 +46,7 @@ const routes = [
             },
             {
                 path: 'schedule',
-                loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("common"), __webpack_require__.e("src_app_schedule_schedule_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../schedule/schedule.module */ 47911)).then(m => m.SchedulePageModule)
+                loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_capacitor_browser_dist_esm_index_js"), __webpack_require__.e("common"), __webpack_require__.e("src_app_schedule_schedule_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../schedule/schedule.module */ 47911)).then(m => m.SchedulePageModule)
             },
             {
                 path: 'find-jobs',

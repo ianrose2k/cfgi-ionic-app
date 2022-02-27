@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { InAppBrowser, InAppBrowserOptions } from '@ionic-native/in-app-browser/ngx';
+import { Browser } from '@capacitor/browser';
 
- 
+
 @Component({
   selector: 'app-schedule',
   templateUrl: './schedule.page.html',
@@ -22,21 +23,21 @@ export class SchedulePage implements OnInit {
     mediaPlaybackRequiresUserAction : 'no',
     shouldPauseOnSuspend : 'no', //Android only 
     closebuttoncaption : 'Close', //iOS only
-    disallowoverscroll : 'yes', //iOS only 
+    disallowoverscroll : 'no', //iOS only 
     toolbar : 'yes', //iOS only 
-    enableViewportScale : 'yes', //iOS only 
-    allowInlineMediaPlayback : 'no',//iOS only 
-    presentationstyle : 'pagesheet',//iOS only 
+    enableViewportScale : 'no', //iOS only 
+    presentationstyle : 'fullscreen',//iOS only 
     fullscreen : 'yes',//Windows only    
   };
+  
   public openWithSystemBrowser(url: string){
-    this.iab.create(url,"_system");
+    this.iab.create(url,"_system", this.options);
   }
   public openWithInAppBrowser(url){
-    this.iab.create(url,'_blank');
+    this.iab.create(url,'_blank', this.options);
   }
   public openWithCordovaBrowser(url){
-    this.iab.create(url,"_self");
+    this.iab.create(url,"_self", this.options);
   }  
   hideAvvo:boolean = true;
   hideLinkedin:boolean=true;
@@ -49,22 +50,6 @@ export class SchedulePage implements OnInit {
 //[Note]: You must provide a 'key', a sequential number. 
 //[Note]: You also must fill-in all information e.g., name, linkedin, avvo, otherlink, about, expertise, languages, location, ect..
   lawyers = [
-    {
-      "fname": 'Matthew W.',
-      "lname": 'Blaisdell',
-      "linkedin": "https://www.linkedin.com/in/matthew-blaisdell-esq",
-      "avvo": "https://www.avvo.com/attorneys/11232-ny-matthew-blaisdell-3817651.html",
-      "otherlink": "Blaisdelllaw.com",
-      "about": "Matthew Blaisdell, Esquire, is a general immigration practice with a focus on providing ongoing consulting services to students, visitors, and others seeking to identify an immigration strategy that best suits their goals. In addition to his practice, Matthew is deeply involved in advocacy related to professional ethics and consumer protection.",
-      "expertise": ['Family Green Cards', 'Employment Green Cards', 'Students', 'Work Permits'],
-      "languages": ['English'],
-      "location": "Brooklyn, NY",
-      "hours": "M: 8:00 am – 3:00 pm (EST), Tu: 10:00 am – 5:00 pm (EST), W:  8:00 am – 3:00 pm  (EST),Th:  11:00 am – 3:00 pm (EST), Fr:  8:00 am – 3:00 pm (EST)",
-      "phone":"(347) 994-0177",
-      "calendly": "https://matthewblaisdell.s3.us-west-1.amazonaws.com/mattbladswell+copy.html",
-      "image": '../assets/MatthewW.jpg',
-      "key":'1'
-   },
     {
       "fname": 'Seth',
       "lname": 'Finberg',
@@ -81,6 +66,23 @@ export class SchedulePage implements OnInit {
       "image": '../assets/seth.jpeg',
       "key":'2'
   },
+    {
+      "fname": 'Matthew W.',
+      "lname": 'Blaisdell',
+      "linkedin": "https://www.linkedin.com/in/matthew-blaisdell-esq",
+      "avvo": "https://www.avvo.com/attorneys/11232-ny-matthew-blaisdell-3817651.html",
+      "otherlink": "Blaisdelllaw.com",
+      "about": "Matthew Blaisdell, Esquire, is a general immigration practice with a focus on providing ongoing consulting services to students, visitors, and others seeking to identify an immigration strategy that best suits their goals. In addition to his practice, Matthew is deeply involved in advocacy related to professional ethics and consumer protection.",
+      "expertise": ['Family Green Cards', 'Employment Green Cards', 'Students', 'Work Permits'],
+      "languages": ['English'],
+      "location": "Brooklyn, NY",
+      "hours": "M: 8:00 am – 3:00 pm (EST), Tu: 10:00 am – 5:00 pm (EST), W:  8:00 am – 3:00 pm  (EST),Th:  11:00 am – 3:00 pm (EST), Fr:  8:00 am – 3:00 pm (EST)",
+      "phone":"(347) 994-0177",
+      "calendly": "https://matthewblaisdell.s3.us-west-1.amazonaws.com/mattbladswell+copy.html",
+      "image": '../assets/MatthewW.jpg',
+      "key":'1'
+   },
+  /*
   {
     "fname": 'Lawyer', /// First Name (Required)
     "lname": 'Person', /// Last Name (Required)
@@ -96,9 +98,11 @@ export class SchedulePage implements OnInit {
     "calendly": "", /// Calendly Link for Scheduling (Optional)
     "image": '../assets/attorneydefault.png', ///Path or link to image for profile (Optional)
     "key":'2' /// Indexing Key (Required)
-}
+}*/
   ]
-
+  async openLink(Url){
+    await Browser.open({ url: Url });
+  }
   ngOnInit() {
   }
 

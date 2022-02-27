@@ -1,4 +1,6 @@
 #back_button {
+    position: absolute;
+    top:6%;
     color: black;
 }
 
@@ -128,6 +130,10 @@
     scale:1.3;
     width: 100%;
     left:-10%;
+}
+#form{
+    position: absolute;
+    top:11%;
 }
 
 ion-title {

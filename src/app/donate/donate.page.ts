@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Browser } from '@capacitor/browser';
 
 @Component({
   selector: 'app-donate',
@@ -8,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class DonatePage implements OnInit {
   
   constructor() { }
-
+  async openLink(Url){
+    await Browser.open({ url: Url });
+  }
   ngOnInit() {
   }
 

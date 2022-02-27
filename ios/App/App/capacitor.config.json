@@ -1,6 +1,6 @@
 {
 	"appId": "world.cfgi.app",
-	"appName": "cfgi-app-test",
+	"appName": "CFGI",
 	"webDir": "www",
 	"bundledWebRuntime": false,
 	"cordova": {

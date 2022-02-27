@@ -66,9 +66,9 @@
                 <tr>
                   <td id="left">
                     <!-- Show button for Linkedin Profile if given -->
-                    <ion-button *ngIf="lawyer.linkedin" fill="clear" id="link" href= {{lawyer.linkedin}}><img id="icon" src="../assets/linkedin.png"></ion-button>
+                    <ion-button *ngIf="lawyer.linkedin" fill="clear" id="link" (click)="openWithSystemBrowser(lawyer.linkedin)"><img id="icon" src="../assets/linkedin.png"></ion-button>
                     <!-- Show button for Avvo Profile if given -->
-                    <ion-button *ngIf="lawyer.avvo" fill="clear" id="link" href= {{lawyer.avvo}}> <img id="icon" src="../assets/avvo.png"></ion-button>
+                    <ion-button *ngIf="lawyer.avvo" fill="clear" id="link" (click)="openLink(lawyer.avvo)"> <img id="icon" src="../assets/avvo.png"></ion-button>
                     <!-- Lawyer's phone number -->
                     <ion-text id="contact"><br><br><ion-icon size="small" name="call"></ion-icon>&nbsp;&nbsp;{{lawyer.phone}}<br></ion-text>
                     <!-- Show hours if given -->
@@ -86,7 +86,7 @@
             <!-- Button to schedule with lawyer via Calendly, if Calendly link is provided -->
             <ion-card-content  *ngIf="lawyer.calendly">
               <!-- In App Browser help: https://www.techiediaries.com/inappbrowser-ionic-v3/ -->
-              <ion-button (click)="openWithInAppBrowser(lawyer.calendly)" id="schedule_button" > Schedule with {{lawyer.fname}}</ion-button>
+              <ion-button (click)="openLink(lawyer.calendly)" id="schedule_button" > Schedule with {{lawyer.fname}}</ion-button>
             </ion-card-content>
 
             <!-- If no Calendly link is provided, button is replaced with text telling the user 

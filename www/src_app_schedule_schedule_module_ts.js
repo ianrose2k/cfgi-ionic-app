@@ -213,11 +213,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SchedulePage": () => (/* binding */ SchedulePage)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ 64762);
 /* harmony import */ var _raw_loader_schedule_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./schedule.page.html */ 92780);
 /* harmony import */ var _schedule_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./schedule.page.scss */ 22044);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 37716);
 /* harmony import */ var _ionic_native_in_app_browser_ngx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic-native/in-app-browser/ngx */ 53760);
+/* harmony import */ var _capacitor_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @capacitor/browser */ 28427);
+
 
 
 
@@ -235,11 +237,10 @@ let SchedulePage = class SchedulePage {
             mediaPlaybackRequiresUserAction: 'no',
             shouldPauseOnSuspend: 'no',
             closebuttoncaption: 'Close',
-            disallowoverscroll: 'yes',
+            disallowoverscroll: 'no',
             toolbar: 'yes',
-            enableViewportScale: 'yes',
-            allowInlineMediaPlayback: 'no',
-            presentationstyle: 'pagesheet',
+            enableViewportScale: 'no',
+            presentationstyle: 'fullscreen',
             fullscreen: 'yes', //Windows only    
         };
         this.hideAvvo = true;
@@ -250,22 +251,6 @@ let SchedulePage = class SchedulePage {
         //[Note]: You must provide a 'key', a sequential number. 
         //[Note]: You also must fill-in all information e.g., name, linkedin, avvo, otherlink, about, expertise, languages, location, ect..
         this.lawyers = [
-            {
-                "fname": 'Matthew W.',
-                "lname": 'Blaisdell',
-                "linkedin": "https://www.linkedin.com/in/matthew-blaisdell-esq",
-                "avvo": "https://www.avvo.com/attorneys/11232-ny-matthew-blaisdell-3817651.html",
-                "otherlink": "Blaisdelllaw.com",
-                "about": "Matthew Blaisdell, Esquire, is a general immigration practice with a focus on providing ongoing consulting services to students, visitors, and others seeking to identify an immigration strategy that best suits their goals. In addition to his practice, Matthew is deeply involved in advocacy related to professional ethics and consumer protection.",
-                "expertise": ['Family Green Cards', 'Employment Green Cards', 'Students', 'Work Permits'],
-                "languages": ['English'],
-                "location": "Brooklyn, NY",
-                "hours": "M: 8:00 am – 3:00 pm (EST), Tu: 10:00 am – 5:00 pm (EST), W:  8:00 am – 3:00 pm  (EST),Th:  11:00 am – 3:00 pm (EST), Fr:  8:00 am – 3:00 pm (EST)",
-                "phone": "(347) 994-0177",
-                "calendly": "https://matthewblaisdell.s3.us-west-1.amazonaws.com/mattbladswell+copy.html",
-                "image": '../assets/MatthewW.jpg',
-                "key": '1'
-            },
             {
                 "fname": 'Seth',
                 "lname": 'Finberg',
@@ -283,31 +268,53 @@ let SchedulePage = class SchedulePage {
                 "key": '2'
             },
             {
-                "fname": 'Lawyer',
-                "lname": 'Person',
-                "linkedin": "",
-                "avvo": "",
-                "website": "",
-                "about": "About Section",
-                "expertise": ["lawyering"],
-                "languages": ['languages'],
-                "location": "City, State",
-                "hours": "day: 0:00-0:00 am (TimeZone)",
-                "phone": "(800)867-5309",
-                "calendly": "",
-                "image": '../assets/attorneydefault.png',
-                "key": '2' /// Indexing Key (Required)
-            }
+                "fname": 'Matthew W.',
+                "lname": 'Blaisdell',
+                "linkedin": "https://www.linkedin.com/in/matthew-blaisdell-esq",
+                "avvo": "https://www.avvo.com/attorneys/11232-ny-matthew-blaisdell-3817651.html",
+                "otherlink": "Blaisdelllaw.com",
+                "about": "Matthew Blaisdell, Esquire, is a general immigration practice with a focus on providing ongoing consulting services to students, visitors, and others seeking to identify an immigration strategy that best suits their goals. In addition to his practice, Matthew is deeply involved in advocacy related to professional ethics and consumer protection.",
+                "expertise": ['Family Green Cards', 'Employment Green Cards', 'Students', 'Work Permits'],
+                "languages": ['English'],
+                "location": "Brooklyn, NY",
+                "hours": "M: 8:00 am – 3:00 pm (EST), Tu: 10:00 am – 5:00 pm (EST), W:  8:00 am – 3:00 pm  (EST),Th:  11:00 am – 3:00 pm (EST), Fr:  8:00 am – 3:00 pm (EST)",
+                "phone": "(347) 994-0177",
+                "calendly": "https://matthewblaisdell.s3.us-west-1.amazonaws.com/mattbladswell+copy.html",
+                "image": '../assets/MatthewW.jpg',
+                "key": '1'
+            },
+            /*
+            {
+              "fname": 'Lawyer', /// First Name (Required)
+              "lname": 'Person', /// Last Name (Required)
+              "linkedin": "", /// Linkedin Profile (Optional)
+              "avvo": "", /// Avvo Profile (Optional)
+              "website": "", /// Personal Website (Optional)
+              "about": "About Section", /// About Section (Required)
+              "expertise": ["lawyering"], /// Expertise area array (Required)
+              "languages": ['languages'], /// Language array (Required)
+              "location": "City, State", /// City, State (Required)
+              "hours": "day: 0:00-0:00 am (TimeZone)", /// Hours (Optional)
+              "phone":"(800)867-5309", /// Phone Number (Required)
+              "calendly": "", /// Calendly Link for Scheduling (Optional)
+              "image": '../assets/attorneydefault.png', ///Path or link to image for profile (Optional)
+              "key":'2' /// Indexing Key (Required)
+          }*/
         ];
     }
     openWithSystemBrowser(url) {
-        this.iab.create(url, "_system");
+        this.iab.create(url, "_system", this.options);
     }
     openWithInAppBrowser(url) {
-        this.iab.create(url, '_blank');
+        this.iab.create(url, '_blank', this.options);
     }
     openWithCordovaBrowser(url) {
-        this.iab.create(url, "_self");
+        this.iab.create(url, "_self", this.options);
+    }
+    openLink(Url) {
+        return (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, function* () {
+            yield _capacitor_browser__WEBPACK_IMPORTED_MODULE_3__.Browser.open({ url: Url });
+        });
     }
     ngOnInit() {
     }
@@ -315,8 +322,8 @@ let SchedulePage = class SchedulePage {
 SchedulePage.ctorParameters = () => [
     { type: _ionic_native_in_app_browser_ngx__WEBPACK_IMPORTED_MODULE_2__.InAppBrowser }
 ];
-SchedulePage = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
-    (0,_angular_core__WEBPACK_IMPORTED_MODULE_4__.Component)({
+SchedulePage = (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__decorate)([
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.Component)({
         selector: 'app-schedule',
         template: _raw_loader_schedule_page_html__WEBPACK_IMPORTED_MODULE_0__.default,
         styles: [_schedule_page_scss__WEBPACK_IMPORTED_MODULE_1__.default]
@@ -353,7 +360,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-content class=\"ion-padding\">\n    <!-- Back Button -->\n    <!--\n    <ion-row>\n      <ion-button fill=clear [routerLink]=\"['/tablinks/legal']\" id=\"back_button\">\n        <ion-icon name=\"arrow-back\"></ion-icon>\n      </ion-button>\n    </ion-row>\n  -->\n\n    <!-- \n    <ion-row id=\"waves_img\">\n      <img src=\"../assets/legalwave.png\" />\n    </ion-row>\n    -->\n\n    <!-- Text at top that says \"Legal\" -->\n    <ion-row id=\"legal_text\">\n      <ion-text>\n        LEGAL\n      </ion-text>\n    </ion-row>\n\n    <!-- Text at top that says \"Find a CFGI Attorney For a Consultation\" -->\n    <ion-row id=\"find_text\">\n      <ion-text>\n        Find a CFGI Attorney For a Consulation\n      </ion-text>\n    </ion-row>\n\n    <!-- Row containing Search Bar -->\n    <ion-row id=\"search_row\">\n      <ion-searchbar id=\"search_field\"\n           id=\"search_field\"\n           placeholder=\"Search for Lawyers\"\n           [(ngModel)]=\"searchTerm\"\n           showCancelButton=\"focus\"\n           animated>\n      </ion-searchbar>\n      <!-- Filter button included for future development-->\n      <!--\n      <ion-button fill=clear id=\"filter_button\">\n        <ion-icon width=\"100%\" name=\"filter-outline\"></ion-icon>\n      </ion-button>\n    -->\n    </ion-row>\n    \n    <!-- List of cards displayed as results -->\n    <ion-row id=\"results\">\n      <ion-list>\n        <!-- Create an ion item for each lawyer in the lawyers array -->\n        <ion-item *ngFor=\"let lawyer of lawyers | filter:searchTerm\">\n          <ion-card id=\"result_card\"> \n            <ion-card-content>\n              <table>\n                <!-- Top row of Table: Lawyer image on left and name, location and language on right -->\n                <tr>\n                  <td id=\"left\"><img id=\"lawyer_avi\" src= {{lawyer.image}}></td>\n                  <td id=\"right\"><ion-text id=\"lawyer_title\">{{lawyer.fname}}</ion-text>\n                    <ion-text id=\"lawyer_title\">{{lawyer.lname}}</ion-text>\n                    <ion-text id=\"location\"> {{lawyer.location}}<br> </ion-text>\n                    <ion-text id=\"languages\"> {{lawyer.languages}} </ion-text>\n                  </td>\n                </tr>\n                <!-- 2nd Row of Table: Contact information on left and Lawyer information on right -->\n                <tr>\n                  <td id=\"left\">\n                    <!-- Show button for Linkedin Profile if given -->\n                    <ion-button *ngIf=\"lawyer.linkedin\" fill=\"clear\" id=\"link\" href= {{lawyer.linkedin}}><img id=\"icon\" src=\"../assets/linkedin.png\"></ion-button>\n                    <!-- Show button for Avvo Profile if given -->\n                    <ion-button *ngIf=\"lawyer.avvo\" fill=\"clear\" id=\"link\" href= {{lawyer.avvo}}> <img id=\"icon\" src=\"../assets/avvo.png\"></ion-button>\n                    <!-- Lawyer's phone number -->\n                    <ion-text id=\"contact\"><br><br><ion-icon size=\"small\" name=\"call\"></ion-icon>&nbsp;&nbsp;{{lawyer.phone}}<br></ion-text>\n                    <!-- Show hours if given -->\n                    <ion-text *ngIf=\"lawyer.hours\" id=\"hours\"> Hours: {{lawyer.hours}}</ion-text>\n                  </td>\n                  <td id=\"right\">\n                    <!-- Lawyer about section -->\n                    <ion-text id=\"about\" >{{lawyer.about}}<br><br></ion-text>\n                    <!-- Lawyer expertise section -->\n                    <ion-text id=\"about\" > Expertise: {{lawyer.expertise}}</ion-text>\n                  </td>\n                </tr>\n                </table>\n            </ion-card-content>\n            <!-- Button to schedule with lawyer via Calendly, if Calendly link is provided -->\n            <ion-card-content  *ngIf=\"lawyer.calendly\">\n              <!-- In App Browser help: https://www.techiediaries.com/inappbrowser-ionic-v3/ -->\n              <ion-button (click)=\"openWithInAppBrowser(lawyer.calendly)\" id=\"schedule_button\" > Schedule with {{lawyer.fname}}</ion-button>\n            </ion-card-content>\n\n            <!-- If no Calendly link is provided, button is replaced with text telling the user \n            to schedule their appointment by contacting the lawyer-->\n            <ion-card-content  id=\"no_calendly\"  *ngIf =\"lawyer.calendly === ''\">\n              <ion-text > Please contact {{lawyer.fname}} directly to check availability.</ion-text>\n            </ion-card-content>\n          </ion-card>\n        </ion-item>\n      </ion-list>\n    </ion-row>");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-content class=\"ion-padding\">\n    <!-- Back Button -->\n    <!--\n    <ion-row>\n      <ion-button fill=clear [routerLink]=\"['/tablinks/legal']\" id=\"back_button\">\n        <ion-icon name=\"arrow-back\"></ion-icon>\n      </ion-button>\n    </ion-row>\n  -->\n\n    <!-- \n    <ion-row id=\"waves_img\">\n      <img src=\"../assets/legalwave.png\" />\n    </ion-row>\n    -->\n\n    <!-- Text at top that says \"Legal\" -->\n    <ion-row id=\"legal_text\">\n      <ion-text>\n        LEGAL\n      </ion-text>\n    </ion-row>\n\n    <!-- Text at top that says \"Find a CFGI Attorney For a Consultation\" -->\n    <ion-row id=\"find_text\">\n      <ion-text>\n        Find a CFGI Attorney For a Consulation\n      </ion-text>\n    </ion-row>\n\n    <!-- Row containing Search Bar -->\n    <ion-row id=\"search_row\">\n      <ion-searchbar id=\"search_field\"\n           id=\"search_field\"\n           placeholder=\"Search for Lawyers\"\n           [(ngModel)]=\"searchTerm\"\n           showCancelButton=\"focus\"\n           animated>\n      </ion-searchbar>\n      <!-- Filter button included for future development-->\n      <!--\n      <ion-button fill=clear id=\"filter_button\">\n        <ion-icon width=\"100%\" name=\"filter-outline\"></ion-icon>\n      </ion-button>\n    -->\n    </ion-row>\n    \n    <!-- List of cards displayed as results -->\n    <ion-row id=\"results\">\n      <ion-list>\n        <!-- Create an ion item for each lawyer in the lawyers array -->\n        <ion-item *ngFor=\"let lawyer of lawyers | filter:searchTerm\">\n          <ion-card id=\"result_card\"> \n            <ion-card-content>\n              <table>\n                <!-- Top row of Table: Lawyer image on left and name, location and language on right -->\n                <tr>\n                  <td id=\"left\"><img id=\"lawyer_avi\" src= {{lawyer.image}}></td>\n                  <td id=\"right\"><ion-text id=\"lawyer_title\">{{lawyer.fname}}</ion-text>\n                    <ion-text id=\"lawyer_title\">{{lawyer.lname}}</ion-text>\n                    <ion-text id=\"location\"> {{lawyer.location}}<br> </ion-text>\n                    <ion-text id=\"languages\"> {{lawyer.languages}} </ion-text>\n                  </td>\n                </tr>\n                <!-- 2nd Row of Table: Contact information on left and Lawyer information on right -->\n                <tr>\n                  <td id=\"left\">\n                    <!-- Show button for Linkedin Profile if given -->\n                    <ion-button *ngIf=\"lawyer.linkedin\" fill=\"clear\" id=\"link\" (click)=\"openWithSystemBrowser(lawyer.linkedin)\"><img id=\"icon\" src=\"../assets/linkedin.png\"></ion-button>\n                    <!-- Show button for Avvo Profile if given -->\n                    <ion-button *ngIf=\"lawyer.avvo\" fill=\"clear\" id=\"link\" (click)=\"openLink(lawyer.avvo)\"> <img id=\"icon\" src=\"../assets/avvo.png\"></ion-button>\n                    <!-- Lawyer's phone number -->\n                    <ion-text id=\"contact\"><br><br><ion-icon size=\"small\" name=\"call\"></ion-icon>&nbsp;&nbsp;{{lawyer.phone}}<br></ion-text>\n                    <!-- Show hours if given -->\n                    <ion-text *ngIf=\"lawyer.hours\" id=\"hours\"> Hours: {{lawyer.hours}}</ion-text>\n                  </td>\n                  <td id=\"right\">\n                    <!-- Lawyer about section -->\n                    <ion-text id=\"about\" >{{lawyer.about}}<br><br></ion-text>\n                    <!-- Lawyer expertise section -->\n                    <ion-text id=\"about\" > Expertise: {{lawyer.expertise}}</ion-text>\n                  </td>\n                </tr>\n                </table>\n            </ion-card-content>\n            <!-- Button to schedule with lawyer via Calendly, if Calendly link is provided -->\n            <ion-card-content  *ngIf=\"lawyer.calendly\">\n              <!-- In App Browser help: https://www.techiediaries.com/inappbrowser-ionic-v3/ -->\n              <ion-button (click)=\"openLink(lawyer.calendly)\" id=\"schedule_button\" > Schedule with {{lawyer.fname}}</ion-button>\n            </ion-card-content>\n\n            <!-- If no Calendly link is provided, button is replaced with text telling the user \n            to schedule their appointment by contacting the lawyer-->\n            <ion-card-content  id=\"no_calendly\"  *ngIf =\"lawyer.calendly === ''\">\n              <ion-text > Please contact {{lawyer.fname}} directly to check availability.</ion-text>\n            </ion-card-content>\n          </ion-card>\n        </ion-item>\n      </ion-list>\n    </ion-row>");
 
 /***/ })
 
