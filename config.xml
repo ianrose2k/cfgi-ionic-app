@@ -57,6 +57,7 @@
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
+        <preference name="WKWebViewOnly" value="true" />
         <preference name="PreferredContentMode" value="mobile" />
         <preference name="InAppBrowserStatusBarStyle" value="lightcontent" />
         <preference name="KeyboardResize" value="false" />

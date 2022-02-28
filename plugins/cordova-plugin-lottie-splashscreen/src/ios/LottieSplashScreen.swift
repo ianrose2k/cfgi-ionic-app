@@ -2,7 +2,7 @@ import Lottie
 
 @objc(LottieSplashScreen) class LottieSplashScreen: CDVPlugin {
     var animationView: AnimationView?
-    var animationViewContainer: UIView?
+    var animationViewContainer: WKView?
     var visible = false
     var animationEnded = false
     var callbackId: String?
@@ -50,7 +50,7 @@ import Lottie
         if visible {
             let fadeOutDuation = Double(commandDelegate?.settings["LottieFadeOutDuration".lowercased()] as? String ?? "0")!
             if fadeOutDuation > 0 {
-                UIView.animate(withDuration: fadeOutDuation, animations: {
+                WKView.animate(withDuration: fadeOutDuation, animations: {
                     self.animationView?.alpha = 0.0
                 }, completion: { _ in
                     self.removeView()
@@ -115,7 +115,7 @@ import Lottie
         let parentView = viewController.view
         parentView?.isUserInteractionEnabled = false
 
-        animationViewContainer = UIView(frame: (parentView?.bounds)!)
+        animationViewContainer = WKView(frame: (parentView?.bounds)!)
         animationViewContainer?.layer.zPosition = 1
 
         let backgroundColor = commandDelegate?.settings["LottieBackgroundColor".lowercased()] as? String
@@ -178,7 +178,7 @@ import Lottie
 
         let useFullScreen = (commandDelegate?.settings["LottieFullScreen".lowercased()] as? NSString ?? "false").boolValue
         if useFullScreen {
-            var autoresizingMask: UIView.AutoresizingMask = [
+            var autoresizingMask: WKView.AutoresizingMask = [
                 .flexibleTopMargin, .flexibleLeftMargin, .flexibleBottomMargin, .flexibleRightMargin
             ]
 
