@@ -17,9 +17,6 @@
       "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
       "PACKAGE_NAME": "com.company.cfgi"
     },
-    "cordova-plugin-lottie-splashscreen": {
-      "PACKAGE_NAME": "com.company.cfgi"
-    },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "com.company.cfgi"
     },

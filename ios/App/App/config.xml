@@ -15,11 +15,6 @@
     <param name="ios-package" value="CDVDevice"/>
   </feature>
 
-  <feature name="LottieSplashScreen">
-    <param name="ios-package" value="LottieSplashScreen"/>
-    <param name="onload" value="true"/>
-  </feature>
-
   
   <preference name="UseSwiftLanguageVersion" value="5" />
   <preference name="AndroidXEnabled" value="true" />
