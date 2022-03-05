@@ -67,11 +67,11 @@
 * [GH-648](https://github.com/apache/cordova-plugin-inappbrowser/pull/648) (android) Correcting the documentation regarding lefttoright opt…
 * [GH-634](https://github.com/apache/cordova-plugin-inappbrowser/pull/634) (android) Added option to turn on/off fullscreen mode in **Android**
 * [GH-616](https://github.com/apache/cordova-plugin-inappbrowser/pull/616) (android) `InAppBrowser`: java.lang.IllegalArgumentException
-* [GH-635](https://github.com/apache/cordova-plugin-inappbrowser/pull/635) breaking(ios): remove WKWebView
+* [GH-635](https://github.com/apache/cordova-plugin-inappbrowser/pull/635) breaking(ios): remove UIWebView
 
 ### 3.2.0 (Jan 04, 2020)
 * [GH-503](https://github.com/apache/cordova-plugin-inappbrowser/pull/503) Defensive code to prevent NULL reference exceptions for async
-* [GH-584](https://github.com/apache/cordova-plugin-inappbrowser/pull/584) Add compile-time decision for disabling WKWebView
+* [GH-584](https://github.com/apache/cordova-plugin-inappbrowser/pull/584) Add compile-time decision for disabling UIWebView
 * [GH-524](https://github.com/apache/cordova-plugin-inappbrowser/pull/524) Replace "beforeload" with BEFORELOAD
 * [GH-568](https://github.com/apache/cordova-plugin-inappbrowser/pull/568) Update missing closed brace to the insert.CSS
 * [GH-401](https://github.com/apache/cordova-plugin-inappbrowser/pull/401) Move createIframeBridge to injectDeferredObject

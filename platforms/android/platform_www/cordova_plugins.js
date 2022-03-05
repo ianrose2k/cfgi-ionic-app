@@ -9,14 +9,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-plugin-inappbrowser.inappbrowser",
-      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-      "pluginId": "cordova-plugin-inappbrowser",
-      "clobbers": [
-        "cordova.InAppBrowser.open"
-      ]
-    },
-    {
       "id": "cordova-plugin-ionic-keyboard.keyboard",
       "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
       "pluginId": "cordova-plugin-ionic-keyboard",
@@ -30,14 +22,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "pluginId": "cordova-plugin-ionic-webview",
       "clobbers": [
         "Ionic.WebView"
-      ]
-    },
-    {
-      "id": "cordova-plugin-lottie-splashscreen.LottieSplashScreen",
-      "file": "plugins/cordova-plugin-lottie-splashscreen/dist/www/lottie-splashscreen.js",
-      "pluginId": "cordova-plugin-lottie-splashscreen",
-      "clobbers": [
-        "lottie.splashscreen"
       ]
     },
     {
@@ -55,16 +39,23 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "window.StatusBar"
       ]
+    },
+    {
+      "id": "cordova-plugin-inappbrowser.inappbrowser",
+      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "clobbers": [
+        "cordova.InAppBrowser.open"
+      ]
     }
   ];
   module.exports.metadata = {
     "cordova-plugin-device": "2.0.2",
-    "cordova-plugin-inappbrowser": "5.0.0",
     "cordova-plugin-ionic-keyboard": "2.2.0",
     "cordova-plugin-ionic-webview": "4.2.1",
-    "cordova-plugin-lottie-splashscreen": "0.9.6",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-statusbar": "2.4.2",
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-whitelist": "1.3.5",
+    "cordova-plugin-inappbrowser": "5.0.0"
   };
 });

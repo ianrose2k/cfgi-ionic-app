@@ -1,0 +1,71 @@
+PODS:
+  - Capacitor (3.4.1):
+    - CapacitorCordova
+  - CapacitorApp (1.0.5):
+    - Capacitor
+  - CapacitorBrowser (1.0.7):
+    - Capacitor
+  - CapacitorCordova (3.4.1)
+  - CapacitorHaptics (1.1.2):
+    - Capacitor
+  - CapacitorKeyboard (1.1.2):
+    - Capacitor
+  - CapacitorStatusBar (1.0.5):
+    - Capacitor
+  - CordovaPlugins (3.4.1):
+    - CapacitorCordova
+  - CordovaPluginsStatic (3.4.1):
+    - CapacitorCordova
+    - lottie-ios (~> 3.2.1)
+  - lottie-ios (3.2.3)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorBrowser (from `../../node_modules/@capacitor/browser`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
+  - CordovaPluginsStatic (from `../capacitor-cordova-ios-plugins`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorBrowser:
+    :path: "../../node_modules/@capacitor/browser"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CordovaPlugins:
+    :path: "../capacitor-cordova-ios-plugins"
+  CordovaPluginsStatic:
+    :path: "../capacitor-cordova-ios-plugins"
+
+SPEC CHECKSUMS:
+  Capacitor: 9ff0758671daabc97247c8c57a981379bc30bb5f
+  CapacitorApp: a3d0e46fd0706c61266ea2d3e65468f9307a3abe
+  CapacitorBrowser: b4ee622a4003e0360b2cbcbd17550b3b1f56203e
+  CapacitorCordova: 4cf19cbad01e5a9e143e2f28f66c621c362f0f79
+  CapacitorHaptics: 947dcf5120f675533e127f8fe6f6d190c0c1e34a
+  CapacitorKeyboard: fcebd29ecae3ce5f16fec296963d24c49041cacd
+  CapacitorStatusBar: 281a99ba366fd1210588d7bc467878440d9ffd81
+  CordovaPlugins: 791d7397bbb173af1019547509ac027200116532
+  CordovaPluginsStatic: 384745d5433382a4de3027f890d97fe34fcb6cf0
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+
+PODFILE CHECKSUM: be4b0d63313c550edef5dc41ea7f245ffafb52af
+
+COCOAPODS: 1.11.2
