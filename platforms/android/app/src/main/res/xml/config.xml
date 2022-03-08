@@ -76,8 +76,4 @@
     <preference name="LottieBackgroundColor" value="#EEEEEE" />
     <preference name="LottieLoopAnimation" value="true" />
     <preference name="LottieFadeOutDuration" value="1000" />
-    <feature name="Whitelist">
-        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
-        <param name="onload" value="true" />
-    </feature>
 </widget>

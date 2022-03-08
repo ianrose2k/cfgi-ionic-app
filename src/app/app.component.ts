@@ -15,7 +15,6 @@ export class AppComponent {
   constructor(
     private platform: Platform,
     private statusBar: StatusBar,
-  ) {this.initializeApp()}
+  ) {}
 
-  initializeApp() {};
 }

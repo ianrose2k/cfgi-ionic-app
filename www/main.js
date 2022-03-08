@@ -1,6 +1,6 @@
 (self["webpackChunkcfgi_app_test"] = self["webpackChunkcfgi_app_test"] || []).push([["main"],{
 
-/***/ 98255:
+/***/ 8255:
 /*!*******************************************************!*\
   !*** ./$_lazy_route_resources/ lazy namespace object ***!
   \*******************************************************/
@@ -17,12 +17,12 @@ function webpackEmptyAsyncContext(req) {
 }
 webpackEmptyAsyncContext.keys = () => ([]);
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 98255;
+webpackEmptyAsyncContext.id = 8255;
 module.exports = webpackEmptyAsyncContext;
 
 /***/ }),
 
-/***/ 90158:
+/***/ 158:
 /*!***************************************!*\
   !*** ./src/app/app-routing.module.ts ***!
   \***************************************/
@@ -33,50 +33,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppRoutingModule": () => (/* binding */ AppRoutingModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ 64762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 37716);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 39895);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ 4762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
 
 
 
 const routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'login', loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_ng-lottie___ivy_ngcc___dist_esm_src_index_js"), __webpack_require__.e("src_app_login_login_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./login/login.module */ 80107)).then(m => m.LoginPageModule) },
+    { path: 'login', loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_ng-lottie___ivy_ngcc___dist_esm_src_index_js"), __webpack_require__.e("src_app_login_login_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./login/login.module */ 107)).then(m => m.LoginPageModule) },
     {
         path: '',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_tablinks_tablinks_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./tablinks/tablinks.module */ 32616)).then(m => m.TablinksPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_tablinks_tablinks_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./tablinks/tablinks.module */ 2616)).then(m => m.TablinksPageModule)
     },
     {
         path: 'tablinks',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_tablinks_tablinks_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./tablinks/tablinks.module */ 32616)).then(m => m.TablinksPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_tablinks_tablinks_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./tablinks/tablinks.module */ 2616)).then(m => m.TablinksPageModule)
     },
     {
         path: 'forgot-password',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_forgot-password_forgot-password_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./forgot-password/forgot-password.module */ 17157)).then(m => m.ForgotPasswordPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_forgot-password_forgot-password_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./forgot-password/forgot-password.module */ 7157)).then(m => m.ForgotPasswordPageModule)
     },
     {
         path: 'sign-up',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_sign-up_sign-up_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./sign-up/sign-up.module */ 73982)).then(m => m.SignUpPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_sign-up_sign-up_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./sign-up/sign-up.module */ 3982)).then(m => m.SignUpPageModule)
     },
     {
         path: 'apply-aid',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_apply-aid_apply-aid_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./apply-aid/apply-aid.module */ 25117)).then(m => m.ApplyAidPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_apply-aid_apply-aid_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./apply-aid/apply-aid.module */ 5117)).then(m => m.ApplyAidPageModule)
     },
     {
         path: 'appointments',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_appointments_appointments_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./appointments/appointments.module */ 59609)).then(m => m.AppointmentsPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_appointments_appointments_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./appointments/appointments.module */ 9609)).then(m => m.AppointmentsPageModule)
     },
     {
         path: 'legal',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_legal_legal_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./legal/legal.module */ 90373)).then(m => m.LegalPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_legal_legal_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./legal/legal.module */ 373)).then(m => m.LegalPageModule)
     },
     {
         path: 'settings',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_settings_settings_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./settings/settings.module */ 27075)).then(m => m.SettingsPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_settings_settings_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./settings/settings.module */ 7075)).then(m => m.SettingsPageModule)
     },
     {
         path: 'schedule',
-        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_capacitor_browser_dist_esm_index_js"), __webpack_require__.e("common"), __webpack_require__.e("src_app_schedule_schedule_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./schedule/schedule.module */ 47911)).then(m => m.SchedulePageModule)
+        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_capacitor_browser_dist_esm_index_js"), __webpack_require__.e("common"), __webpack_require__.e("src_app_schedule_schedule_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./schedule/schedule.module */ 7911)).then(m => m.SchedulePageModule)
     },
     {
         path: 'faq',
@@ -84,15 +84,15 @@ const routes = [
     },
     {
         path: 'resources',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_resources_resources_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./resources/resources.module */ 93882)).then(m => m.ResourcesPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_resources_resources_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./resources/resources.module */ 3882)).then(m => m.ResourcesPageModule)
     },
     {
         path: 'sophie-modal',
-        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_sophie-modal_sophie-modal_page_ts"), __webpack_require__.e("src_app_sophie-modal_sophie-modal_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./sophie-modal/sophie-modal.module */ 34287)).then(m => m.SophieModalPageModule)
+        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_sophie-modal_sophie-modal_page_ts"), __webpack_require__.e("src_app_sophie-modal_sophie-modal_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./sophie-modal/sophie-modal.module */ 4287)).then(m => m.SophieModalPageModule)
     },
     {
         path: 'david-modal',
-        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_david-modal_david-modal_page_ts"), __webpack_require__.e("src_app_david-modal_david-modal_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./david-modal/david-modal.module */ 69514)).then(m => m.DavidModalPageModule)
+        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_david-modal_david-modal_page_ts"), __webpack_require__.e("src_app_david-modal_david-modal_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./david-modal/david-modal.module */ 9514)).then(m => m.DavidModalPageModule)
     },
 ];
 let AppRoutingModule = class AppRoutingModule {
@@ -110,7 +110,7 @@ AppRoutingModule = (0,tslib__WEBPACK_IMPORTED_MODULE_0__.__decorate)([
 
 /***/ }),
 
-/***/ 55041:
+/***/ 5041:
 /*!**********************************!*\
   !*** ./src/app/app.component.ts ***!
   \**********************************/
@@ -121,12 +121,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppComponent": () => (/* binding */ AppComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ 64762);
-/* harmony import */ var _raw_loader_app_component_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./app.component.html */ 91106);
-/* harmony import */ var _app_component_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component.scss */ 43069);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 37716);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ 80476);
-/* harmony import */ var _awesome_cordova_plugins_status_bar_ngx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @awesome-cordova-plugins/status-bar/ngx */ 42848);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ 4762);
+/* harmony import */ var _raw_loader_app_component_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./app.component.html */ 1106);
+/* harmony import */ var _app_component_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component.scss */ 3069);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ 476);
+/* harmony import */ var _awesome_cordova_plugins_status_bar_ngx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @awesome-cordova-plugins/status-bar/ngx */ 2848);
 
 
 
@@ -137,10 +137,7 @@ let AppComponent = class AppComponent {
     constructor(platform, statusBar) {
         this.platform = platform;
         this.statusBar = statusBar;
-        this.initializeApp();
     }
-    initializeApp() { }
-    ;
 };
 AppComponent.ctorParameters = () => [
     { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_3__.Platform },
@@ -158,7 +155,7 @@ AppComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__decorate)([
 
 /***/ }),
 
-/***/ 36747:
+/***/ 6747:
 /*!*******************************!*\
   !*** ./src/app/app.module.ts ***!
   \*******************************/
@@ -169,18 +166,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppModule": () => (/* binding */ AppModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! tslib */ 64762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 37716);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/platform-browser */ 39075);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ 39895);
-/* harmony import */ var swiper_angular__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! swiper/angular */ 77360);
-/* harmony import */ var _awesome_cordova_plugins_in_app_browser_ngx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @awesome-cordova-plugins/in-app-browser/ngx */ 69526);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ionic/angular */ 80476);
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 55041);
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ 90158);
-/* harmony import */ var _ionic_native_lottie_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic-native/lottie-splash-screen/ngx */ 52018);
-/* harmony import */ var _awesome_cordova_plugins_status_bar_ngx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @awesome-cordova-plugins/status-bar/ngx */ 42848);
-
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ 4762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser */ 9075);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ 9895);
+/* harmony import */ var swiper_angular__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! swiper/angular */ 7360);
+/* harmony import */ var _awesome_cordova_plugins_in_app_browser_ngx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @awesome-cordova-plugins/in-app-browser/ngx */ 9526);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic/angular */ 476);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 5041);
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ 158);
+/* harmony import */ var _awesome_cordova_plugins_status_bar_ngx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @awesome-cordova-plugins/status-bar/ngx */ 2848);
 
 
 
@@ -193,17 +188,17 @@ __webpack_require__.r(__webpack_exports__);
 
 let AppModule = class AppModule {
 };
-AppModule = (0,tslib__WEBPACK_IMPORTED_MODULE_5__.__decorate)([
-    (0,_angular_core__WEBPACK_IMPORTED_MODULE_6__.NgModule)({
+AppModule = (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__decorate)([
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.NgModule)({
         declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent],
         entryComponents: [],
         imports: [
-            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_7__.BrowserModule,
-            _ionic_angular__WEBPACK_IMPORTED_MODULE_8__.IonicModule.forRoot(),
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__.BrowserModule,
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_7__.IonicModule.forRoot(),
             _app_routing_module__WEBPACK_IMPORTED_MODULE_2__.AppRoutingModule,
-            swiper_angular__WEBPACK_IMPORTED_MODULE_9__.SwiperModule
+            swiper_angular__WEBPACK_IMPORTED_MODULE_8__.SwiperModule
         ],
-        providers: [_awesome_cordova_plugins_status_bar_ngx__WEBPACK_IMPORTED_MODULE_4__.StatusBar, _awesome_cordova_plugins_in_app_browser_ngx__WEBPACK_IMPORTED_MODULE_0__.InAppBrowser, _ionic_native_lottie_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_3__.LottieSplashScreen, { provide: _angular_router__WEBPACK_IMPORTED_MODULE_10__.RouteReuseStrategy, useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_8__.IonicRouteStrategy }],
+        providers: [_awesome_cordova_plugins_status_bar_ngx__WEBPACK_IMPORTED_MODULE_3__.StatusBar, _awesome_cordova_plugins_in_app_browser_ngx__WEBPACK_IMPORTED_MODULE_0__.InAppBrowser, { provide: _angular_router__WEBPACK_IMPORTED_MODULE_9__.RouteReuseStrategy, useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_7__.IonicRouteStrategy }],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent],
     })
 ], AppModule);
@@ -212,7 +207,7 @@ AppModule = (0,tslib__WEBPACK_IMPORTED_MODULE_5__.__decorate)([
 
 /***/ }),
 
-/***/ 92340:
+/***/ 2340:
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
   \*****************************************/
@@ -241,7 +236,7 @@ const environment = {
 
 /***/ }),
 
-/***/ 14431:
+/***/ 4431:
 /*!*********************!*\
   !*** ./src/main.ts ***!
   \*********************/
@@ -249,28 +244,24 @@ const environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 37716);
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ 24608);
-/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 36747);
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 92340);
-/* harmony import */ var _teamhive_lottie_player_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @teamhive/lottie-player/loader */ 87889);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ 4608);
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 6747);
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 2340);
 
 
 
 
-// Lottie Import
-
-(0,_teamhive_lottie_player_loader__WEBPACK_IMPORTED_MODULE_2__.defineCustomElements)(window);
 if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.production) {
-    (0,_angular_core__WEBPACK_IMPORTED_MODULE_3__.enableProdMode)();
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.enableProdMode)();
 }
-(0,_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_4__.platformBrowserDynamic)().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_0__.AppModule)
+(0,_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_3__.platformBrowserDynamic)().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_0__.AppModule)
     .catch(err => console.log(err));
 
 
 /***/ }),
 
-/***/ 50863:
+/***/ 863:
 /*!******************************************************************************************************************************************!*\
   !*** ./node_modules/@ionic/core/dist/esm/ lazy ^\.\/.*\.entry\.js$ include: \.entry\.js$ exclude: \.system\.entry\.js$ namespace object ***!
   \******************************************************************************************************************************************/
@@ -278,88 +269,88 @@ if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.productio
 
 var map = {
 	"./ion-action-sheet.entry.js": [
-		47321,
+		7321,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-action-sheet_entry_js"
 	],
 	"./ion-alert.entry.js": [
-		36108,
+		6108,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-alert_entry_js"
 	],
 	"./ion-app_8.entry.js": [
-		31489,
+		1489,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-app_8_entry_js"
 	],
 	"./ion-avatar_3.entry.js": [
-		10305,
+		305,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-avatar_3_entry_js"
 	],
 	"./ion-back-button.entry.js": [
-		15830,
+		5830,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-back-button_entry_js"
 	],
 	"./ion-backdrop.entry.js": [
-		37757,
+		7757,
 		"node_modules_ionic_core_dist_esm_ion-backdrop_entry_js"
 	],
 	"./ion-button_2.entry.js": [
-		30392,
+		392,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-button_2_entry_js"
 	],
 	"./ion-card_5.entry.js": [
-		66911,
+		6911,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-card_5_entry_js"
 	],
 	"./ion-checkbox.entry.js": [
-		30937,
+		937,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-checkbox_entry_js"
 	],
 	"./ion-chip.entry.js": [
-		78695,
+		8695,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-chip_entry_js"
 	],
 	"./ion-col_3.entry.js": [
-		16034,
+		6034,
 		"node_modules_ionic_core_dist_esm_ion-col_3_entry_js"
 	],
 	"./ion-datetime_3.entry.js": [
-		68837,
+		8837,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-datetime_3_entry_js"
 	],
 	"./ion-fab_3.entry.js": [
-		34195,
+		4195,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-fab_3_entry_js"
 	],
 	"./ion-img.entry.js": [
-		41709,
+		1709,
 		"node_modules_ionic_core_dist_esm_ion-img_entry_js"
 	],
 	"./ion-infinite-scroll_2.entry.js": [
-		33087,
+		5931,
 		"node_modules_ionic_core_dist_esm_ion-infinite-scroll_2_entry_js"
 	],
 	"./ion-input.entry.js": [
-		84513,
+		4513,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-input_entry_js"
 	],
 	"./ion-item-option_3.entry.js": [
-		58056,
+		8056,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-item-option_3_entry_js"
 	],
 	"./ion-item_8.entry.js": [
-		10862,
+		862,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-item_8_entry_js"
 	],
@@ -369,56 +360,56 @@ var map = {
 		"node_modules_ionic_core_dist_esm_ion-loading_entry_js"
 	],
 	"./ion-menu_3.entry.js": [
-		76272,
+		6272,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-menu_3_entry_js"
 	],
 	"./ion-modal.entry.js": [
-		71855,
+		1855,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-modal_entry_js"
 	],
 	"./ion-nav_2.entry.js": [
-		38708,
+		8708,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-nav_2_entry_js"
 	],
 	"./ion-popover.entry.js": [
-		23527,
+		3527,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-popover_entry_js"
 	],
 	"./ion-progress-bar.entry.js": [
-		24694,
+		4694,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-progress-bar_entry_js"
 	],
 	"./ion-radio_2.entry.js": [
-		19222,
+		9222,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-radio_2_entry_js"
 	],
 	"./ion-range.entry.js": [
-		25277,
+		5277,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-range_entry_js"
 	],
 	"./ion-refresher_2.entry.js": [
-		39921,
+		9921,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-refresher_2_entry_js"
 	],
 	"./ion-reorder_2.entry.js": [
-		83122,
+		3122,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-reorder_2_entry_js"
 	],
 	"./ion-ripple-effect.entry.js": [
-		51602,
+		1602,
 		"node_modules_ionic_core_dist_esm_ion-ripple-effect_entry_js"
 	],
 	"./ion-route_4.entry.js": [
-		45174,
+		5174,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-route_4_entry_js"
 	],
@@ -428,60 +419,60 @@ var map = {
 		"node_modules_ionic_core_dist_esm_ion-searchbar_entry_js"
 	],
 	"./ion-segment_2.entry.js": [
-		76164,
+		6164,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-segment_2_entry_js"
 	],
 	"./ion-select_3.entry.js": [
-		20592,
+		592,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-select_3_entry_js"
 	],
 	"./ion-slide_2.entry.js": [
-		27162,
+		7162,
 		"node_modules_ionic_core_dist_esm_ion-slide_2_entry_js"
 	],
 	"./ion-spinner.entry.js": [
-		81374,
+		1374,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-spinner_entry_js"
 	],
 	"./ion-split-pane.entry.js": [
-		97896,
+		7896,
 		"node_modules_ionic_core_dist_esm_ion-split-pane_entry_js"
 	],
 	"./ion-tab-bar_2.entry.js": [
-		25043,
+		5043,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-tab-bar_2_entry_js"
 	],
 	"./ion-tab_2.entry.js": [
-		77802,
+		7802,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-tab_2_entry_js"
 	],
 	"./ion-text.entry.js": [
-		29072,
+		9072,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-text_entry_js"
 	],
 	"./ion-textarea.entry.js": [
-		32191,
+		2191,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-textarea_entry_js"
 	],
 	"./ion-toast.entry.js": [
-		40801,
+		801,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-toast_entry_js"
 	],
 	"./ion-toggle.entry.js": [
-		67110,
+		7110,
 		"common",
 		"node_modules_ionic_core_dist_esm_ion-toggle_entry_js"
 	],
 	"./ion-virtual-scroll.entry.js": [
-		10431,
+		431,
 		"node_modules_ionic_core_dist_esm_ion-virtual-scroll_entry_js"
 	]
 };
@@ -500,44 +491,12 @@ function webpackAsyncContext(req) {
 	});
 }
 webpackAsyncContext.keys = () => (Object.keys(map));
-webpackAsyncContext.id = 50863;
+webpackAsyncContext.id = 863;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 85000:
-/*!******************************************************************************************************************************************************!*\
-  !*** ./node_modules/@teamhive/lottie-player/dist/esm/ lazy ^\.\/.*\.entry\.js$ include: \.entry\.js$ exclude: \.system\.entry\.js$ namespace object ***!
-  \******************************************************************************************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var map = {
-	"./lottie-player.entry.js": [
-		7715,
-		"node_modules_teamhive_lottie-player_dist_esm_lottie-player_entry_js"
-	]
-};
-function webpackAsyncContext(req) {
-	if(!__webpack_require__.o(map, req)) {
-		return Promise.resolve().then(() => {
-			var e = new Error("Cannot find module '" + req + "'");
-			e.code = 'MODULE_NOT_FOUND';
-			throw e;
-		});
-	}
-
-	var ids = map[req], id = ids[0];
-	return __webpack_require__.e(ids[1]).then(() => {
-		return __webpack_require__(id);
-	});
-}
-webpackAsyncContext.keys = () => (Object.keys(map));
-webpackAsyncContext.id = 85000;
-module.exports = webpackAsyncContext;
-
-/***/ }),
-
-/***/ 43069:
+/***/ 3069:
 /*!************************************!*\
   !*** ./src/app/app.component.scss ***!
   \************************************/
@@ -552,7 +511,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 91106:
+/***/ 1106:
 /*!**************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
   \**************************************************************************/
@@ -572,7 +531,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ "use strict";
 /******/ 
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, ["vendor"], () => (__webpack_exec__(14431)));
+/******/ __webpack_require__.O(0, ["vendor"], () => (__webpack_exec__(4431)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);

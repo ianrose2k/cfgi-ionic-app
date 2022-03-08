@@ -26,12 +26,7 @@
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="0" />
     <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="LottieAnimationLocation" value="www/assets/lottie.json" />
-    <preference name="LottieFullScreen" value="false" />
-    <preference name="LottieBackgroundColor" value="#EEEEEE" />
-    <preference name="LottieLoopAnimation" value="true" />
     <platform name="android">
-        <preference name="LottieFadeOutDuration" value="1000" />
         <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
             <application android:networkSecurityConfig="@xml/network_security_config" />
         </edit-config>
@@ -61,7 +56,6 @@
         <preference name="PreferredContentMode" value="mobile" />
         <preference name="InAppBrowserStatusBarStyle" value="lightcontent" />
         <preference name="KeyboardResize" value="false" />
-        <preference name="LottieFadeOutDuration" value="1" />
         <preference name="SwiftVersion" value="5" />
         <preference name="deployment-target" value="11.0" />
         <allow-intent href="itms:*" />

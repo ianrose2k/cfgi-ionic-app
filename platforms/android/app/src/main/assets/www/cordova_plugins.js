@@ -39,6 +39,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "window.StatusBar"
       ]
+    },
+    {
+      "id": "cordova-plugin-lottie-splashscreen.LottieSplashScreen",
+      "file": "plugins/cordova-plugin-lottie-splashscreen/dist/www/lottie-splashscreen.js",
+      "pluginId": "cordova-plugin-lottie-splashscreen",
+      "clobbers": [
+        "lottie.splashscreen"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -47,6 +55,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-ionic-webview": "4.2.1",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-statusbar": "2.4.2",
-    "cordova-plugin-whitelist": "1.3.5"
+    "cordova-plugin-lottie-splashscreen": "0.9.6"
   };
 });

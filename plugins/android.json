@@ -22,9 +22,6 @@
     },
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "com.company.cfgi"
-    },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.company.cfgi"
     }
   },
   "dependent_plugins": {}

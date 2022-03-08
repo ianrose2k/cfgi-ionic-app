@@ -20,10 +20,6 @@ const config: CapacitorConfig = {
       AutoHideSplashScreen: 'true',
       SplashScreenDelay: '0',
       ShowSplashScreenSpinner: 'false',
-      LottieAnimationLocation: 'www/assets/lottie.json',
-      LottieFullScreen: 'false',
-      LottieBackgroundColor: '#EEEEEE',
-      LottieLoopAnimation: 'true'
     }
   }
 };

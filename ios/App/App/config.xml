@@ -34,8 +34,4 @@
   <preference name="AutoHideSplashScreen" value="true" />
   <preference name="SplashScreenDelay" value="0" />
   <preference name="ShowSplashScreenSpinner" value="false" />
-  <preference name="LottieAnimationLocation" value="www/assets/lottie.json" />
-  <preference name="LottieFullScreen" value="false" />
-  <preference name="LottieBackgroundColor" value="#EEEEEE" />
-  <preference name="LottieLoopAnimation" value="true" />
 </widget>

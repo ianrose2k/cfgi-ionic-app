@@ -1,6 +1,6 @@
 (self["webpackChunkcfgi_app_test"] = self["webpackChunkcfgi_app_test"] || []).push([["src_app_request-aid_request-aid_module_ts"],{
 
-/***/ 69373:
+/***/ 9373:
 /*!***********************************************************!*\
   !*** ./src/app/request-aid/request-aid-routing.module.ts ***!
   \***********************************************************/
@@ -11,10 +11,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "RequestAidPageRoutingModule": () => (/* binding */ RequestAidPageRoutingModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ 64762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37716);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 39895);
-/* harmony import */ var _request_aid_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./request-aid.page */ 69545);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ 4762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
+/* harmony import */ var _request_aid_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./request-aid.page */ 9545);
 
 
 
@@ -38,7 +38,7 @@ RequestAidPageRoutingModule = (0,tslib__WEBPACK_IMPORTED_MODULE_1__.__decorate)(
 
 /***/ }),
 
-/***/ 47640:
+/***/ 7640:
 /*!***************************************************!*\
   !*** ./src/app/request-aid/request-aid.module.ts ***!
   \***************************************************/
@@ -49,13 +49,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "RequestAidPageModule": () => (/* binding */ RequestAidPageModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 64762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 37716);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 38583);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 4762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 8583);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 3679);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ 80476);
-/* harmony import */ var _request_aid_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./request-aid-routing.module */ 69373);
-/* harmony import */ var _request_aid_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./request-aid.page */ 69545);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ 476);
+/* harmony import */ var _request_aid_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./request-aid-routing.module */ 9373);
+/* harmony import */ var _request_aid_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./request-aid.page */ 9545);
 
 
 
@@ -81,7 +81,7 @@ RequestAidPageModule = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
 
 /***/ }),
 
-/***/ 69545:
+/***/ 9545:
 /*!*************************************************!*\
   !*** ./src/app/request-aid/request-aid.page.ts ***!
   \*************************************************/
@@ -92,11 +92,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "RequestAidPage": () => (/* binding */ RequestAidPage)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 64762);
-/* harmony import */ var _raw_loader_request_aid_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./request-aid.page.html */ 57900);
-/* harmony import */ var _request_aid_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./request-aid.page.scss */ 72847);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 37716);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ 80476);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 4762);
+/* harmony import */ var _raw_loader_request_aid_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./request-aid.page.html */ 269);
+/* harmony import */ var _request_aid_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./request-aid.page.scss */ 5754);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ 476);
 
 
 
@@ -298,7 +298,7 @@ RequestAidPage = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
 
 /***/ }),
 
-/***/ 72847:
+/***/ 5754:
 /*!***************************************************!*\
   !*** ./src/app/request-aid/request-aid.page.scss ***!
   \***************************************************/
@@ -313,7 +313,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 57900:
+/***/ 269:
 /*!*****************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/request-aid/request-aid.page.html ***!
   \*****************************************************************************************/
