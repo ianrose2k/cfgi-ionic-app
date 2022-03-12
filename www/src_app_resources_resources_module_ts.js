@@ -1,6 +1,6 @@
 (self["webpackChunkcfgi_app_test"] = self["webpackChunkcfgi_app_test"] || []).push([["src_app_resources_resources_module_ts"],{
 
-/***/ 3422:
+/***/ 63422:
 /*!*******************************************************!*\
   !*** ./src/app/resources/resources-routing.module.ts ***!
   \*******************************************************/
@@ -11,10 +11,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ResourcesPageRoutingModule": () => (/* binding */ ResourcesPageRoutingModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
-/* harmony import */ var _resources_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./resources.page */ 6046);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 39895);
+/* harmony import */ var _resources_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./resources.page */ 46046);
 
 
 
@@ -38,7 +38,7 @@ ResourcesPageRoutingModule = (0,tslib__WEBPACK_IMPORTED_MODULE_1__.__decorate)([
 
 /***/ }),
 
-/***/ 3882:
+/***/ 93882:
 /*!***********************************************!*\
   !*** ./src/app/resources/resources.module.ts ***!
   \***********************************************/
@@ -49,13 +49,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ResourcesPageModule": () => (/* binding */ ResourcesPageModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 8583);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 38583);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 3679);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ 476);
-/* harmony import */ var _resources_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./resources-routing.module */ 3422);
-/* harmony import */ var _resources_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resources.page */ 6046);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ 80476);
+/* harmony import */ var _resources_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./resources-routing.module */ 63422);
+/* harmony import */ var _resources_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resources.page */ 46046);
 
 
 
@@ -81,7 +81,7 @@ ResourcesPageModule = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
 
 /***/ }),
 
-/***/ 6046:
+/***/ 46046:
 /*!*********************************************!*\
   !*** ./src/app/resources/resources.page.ts ***!
   \*********************************************/
@@ -92,10 +92,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ResourcesPage": () => (/* binding */ ResourcesPage)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _raw_loader_resources_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./resources.page.html */ 32);
-/* harmony import */ var _resources_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resources.page.scss */ 5047);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _raw_loader_resources_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./resources.page.html */ 10032);
+/* harmony import */ var _resources_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resources.page.scss */ 45047);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 37716);
 
 
 
@@ -118,7 +118,7 @@ ResourcesPage = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
 
 /***/ }),
 
-/***/ 5047:
+/***/ 45047:
 /*!***********************************************!*\
   !*** ./src/app/resources/resources.page.scss ***!
   \***********************************************/
@@ -133,7 +133,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 32:
+/***/ 10032:
 /*!*************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/resources/resources.page.html ***!
   \*************************************************************************************/

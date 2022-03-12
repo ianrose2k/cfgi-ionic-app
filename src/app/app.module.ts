@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 import { SwiperModule } from 'swiper/angular';
-import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
 
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
@@ -18,7 +17,7 @@ import { StatusBar } from '@awesome-cordova-plugins/status-bar/ngx';
     IonicModule.forRoot(),
     AppRoutingModule,
     SwiperModule],
-  providers: [StatusBar, InAppBrowser, { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  providers: [StatusBar, { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

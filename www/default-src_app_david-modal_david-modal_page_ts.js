@@ -1,6 +1,6 @@
 (self["webpackChunkcfgi_app_test"] = self["webpackChunkcfgi_app_test"] || []).push([["default-src_app_david-modal_david-modal_page_ts"],{
 
-/***/ 7685:
+/***/ 37685:
 /*!*************************************************!*\
   !*** ./src/app/david-modal/david-modal.page.ts ***!
   \*************************************************/
@@ -11,11 +11,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "DavidModalPage": () => (/* binding */ DavidModalPage)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _raw_loader_david_modal_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./david-modal.page.html */ 8253);
-/* harmony import */ var _david_modal_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./david-modal.page.scss */ 9662);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ 476);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _raw_loader_david_modal_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./david-modal.page.html */ 78253);
+/* harmony import */ var _david_modal_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./david-modal.page.scss */ 79662);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ 80476);
 
 
 
@@ -51,7 +51,7 @@ DavidModalPage = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
 
 /***/ }),
 
-/***/ 9662:
+/***/ 79662:
 /*!***************************************************!*\
   !*** ./src/app/david-modal/david-modal.page.scss ***!
   \***************************************************/
@@ -66,7 +66,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8253:
+/***/ 78253:
 /*!*****************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/david-modal/david-modal.page.html ***!
   \*****************************************************************************************/

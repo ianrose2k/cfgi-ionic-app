@@ -1,6 +1,6 @@
 (self["webpackChunkcfgi_app_test"] = self["webpackChunkcfgi_app_test"] || []).push([["src_app_appointments_appointments_module_ts"],{
 
-/***/ 1893:
+/***/ 71893:
 /*!*************************************************************!*\
   !*** ./src/app/appointments/appointments-routing.module.ts ***!
   \*************************************************************/
@@ -11,10 +11,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppointmentsPageRoutingModule": () => (/* binding */ AppointmentsPageRoutingModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
-/* harmony import */ var _appointments_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appointments.page */ 7390);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 39895);
+/* harmony import */ var _appointments_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appointments.page */ 87390);
 
 
 
@@ -38,7 +38,7 @@ AppointmentsPageRoutingModule = (0,tslib__WEBPACK_IMPORTED_MODULE_1__.__decorate
 
 /***/ }),
 
-/***/ 9609:
+/***/ 59609:
 /*!*****************************************************!*\
   !*** ./src/app/appointments/appointments.module.ts ***!
   \*****************************************************/
@@ -49,13 +49,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppointmentsPageModule": () => (/* binding */ AppointmentsPageModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 8583);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 38583);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 3679);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ 476);
-/* harmony import */ var _appointments_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appointments-routing.module */ 1893);
-/* harmony import */ var _appointments_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./appointments.page */ 7390);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ 80476);
+/* harmony import */ var _appointments_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appointments-routing.module */ 71893);
+/* harmony import */ var _appointments_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./appointments.page */ 87390);
 
 
 
@@ -81,7 +81,7 @@ AppointmentsPageModule = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
 
 /***/ }),
 
-/***/ 7390:
+/***/ 87390:
 /*!***************************************************!*\
   !*** ./src/app/appointments/appointments.page.ts ***!
   \***************************************************/
@@ -92,10 +92,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppointmentsPage": () => (/* binding */ AppointmentsPage)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _raw_loader_appointments_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./appointments.page.html */ 655);
-/* harmony import */ var _appointments_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./appointments.page.scss */ 55);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _raw_loader_appointments_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./appointments.page.html */ 47538);
+/* harmony import */ var _appointments_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./appointments.page.scss */ 40055);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 37716);
 
 
 
@@ -118,7 +118,7 @@ AppointmentsPage = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
 
 /***/ }),
 
-/***/ 55:
+/***/ 40055:
 /*!*****************************************************!*\
   !*** ./src/app/appointments/appointments.page.scss ***!
   \*****************************************************/
@@ -133,7 +133,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 655:
+/***/ 47538:
 /*!*******************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/appointments/appointments.page.html ***!
   \*******************************************************************************************/

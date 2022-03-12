@@ -1,6 +1,6 @@
 (self["webpackChunkcfgi_app_test"] = self["webpackChunkcfgi_app_test"] || []).push([["default-src_app_sophie-modal_sophie-modal_page_ts"],{
 
-/***/ 9411:
+/***/ 19411:
 /*!***************************************************!*\
   !*** ./src/app/sophie-modal/sophie-modal.page.ts ***!
   \***************************************************/
@@ -11,11 +11,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SophieModalPage": () => (/* binding */ SophieModalPage)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _raw_loader_sophie_modal_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./sophie-modal.page.html */ 5837);
-/* harmony import */ var _sophie_modal_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sophie-modal.page.scss */ 1700);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ 476);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _raw_loader_sophie_modal_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./sophie-modal.page.html */ 25837);
+/* harmony import */ var _sophie_modal_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sophie-modal.page.scss */ 91700);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ 80476);
 
 
 
@@ -51,7 +51,7 @@ SophieModalPage = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
 
 /***/ }),
 
-/***/ 1700:
+/***/ 91700:
 /*!*****************************************************!*\
   !*** ./src/app/sophie-modal/sophie-modal.page.scss ***!
   \*****************************************************/
@@ -66,7 +66,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 5837:
+/***/ 25837:
 /*!*******************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/sophie-modal/sophie-modal.page.html ***!
   \*******************************************************************************************/

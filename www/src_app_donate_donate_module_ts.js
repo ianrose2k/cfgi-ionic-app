@@ -1,6 +1,6 @@
 (self["webpackChunkcfgi_app_test"] = self["webpackChunkcfgi_app_test"] || []).push([["src_app_donate_donate_module_ts"],{
 
-/***/ 8620:
+/***/ 38620:
 /*!*************************************************!*\
   !*** ./src/app/donate/donate-routing.module.ts ***!
   \*************************************************/
@@ -11,10 +11,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "DonatePageRoutingModule": () => (/* binding */ DonatePageRoutingModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
-/* harmony import */ var _donate_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./donate.page */ 216);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 39895);
+/* harmony import */ var _donate_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./donate.page */ 70216);
 
 
 
@@ -38,7 +38,7 @@ DonatePageRoutingModule = (0,tslib__WEBPACK_IMPORTED_MODULE_1__.__decorate)([
 
 /***/ }),
 
-/***/ 3589:
+/***/ 53589:
 /*!*****************************************!*\
   !*** ./src/app/donate/donate.module.ts ***!
   \*****************************************/
@@ -49,14 +49,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "DonatePageModule": () => (/* binding */ DonatePageModule)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 8583);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 38583);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ 3679);
-/* harmony import */ var ng_lottie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ng-lottie */ 2800);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic/angular */ 476);
-/* harmony import */ var _donate_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./donate-routing.module */ 8620);
-/* harmony import */ var _donate_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./donate.page */ 216);
+/* harmony import */ var ng_lottie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ng-lottie */ 52800);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic/angular */ 80476);
+/* harmony import */ var _donate_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./donate-routing.module */ 38620);
+/* harmony import */ var _donate_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./donate.page */ 70216);
 
 
 
@@ -84,7 +84,7 @@ DonatePageModule = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
 
 /***/ }),
 
-/***/ 216:
+/***/ 70216:
 /*!***************************************!*\
   !*** ./src/app/donate/donate.page.ts ***!
   \***************************************/
@@ -95,11 +95,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "DonatePage": () => (/* binding */ DonatePage)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 4762);
-/* harmony import */ var _raw_loader_donate_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./donate.page.html */ 8051);
-/* harmony import */ var _donate_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./donate.page.scss */ 4686);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _capacitor_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @capacitor/browser */ 8427);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ 64762);
+/* harmony import */ var _raw_loader_donate_page_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./donate.page.html */ 98051);
+/* harmony import */ var _donate_page_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./donate.page.scss */ 24686);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 37716);
+/* harmony import */ var _capacitor_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @capacitor/browser */ 28427);
+/* harmony import */ var _teamhive_lottie_player__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @teamhive/lottie-player */ 85168);
+
 
 
 
@@ -108,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 let DonatePage = class DonatePage {
     constructor() { }
     openLink(Url) {
-        return (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__awaiter)(this, void 0, void 0, function* () {
+        return (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, function* () {
             yield _capacitor_browser__WEBPACK_IMPORTED_MODULE_2__.Browser.open({ url: Url });
         });
     }
@@ -116,8 +118,8 @@ let DonatePage = class DonatePage {
     }
 };
 DonatePage.ctorParameters = () => [];
-DonatePage = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
-    (0,_angular_core__WEBPACK_IMPORTED_MODULE_4__.Component)({
+DonatePage = (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__decorate)([
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.Component)({
         selector: 'app-donate',
         template: _raw_loader_donate_page_html__WEBPACK_IMPORTED_MODULE_0__.default,
         styles: [_donate_page_scss__WEBPACK_IMPORTED_MODULE_1__.default]
@@ -128,7 +130,20 @@ DonatePage = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
 
 /***/ }),
 
-/***/ 4686:
+/***/ 85168:
+/*!*****************************************************************!*\
+  !*** ./node_modules/@teamhive/lottie-player/dist/esm/index.mjs ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+
+
+/***/ }),
+
+/***/ 24686:
 /*!*****************************************!*\
   !*** ./src/app/donate/donate.page.scss ***!
   \*****************************************/
@@ -143,7 +158,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8051:
+/***/ 98051:
 /*!*******************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/donate/donate.page.html ***!
   \*******************************************************************************/

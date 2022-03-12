@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Browser } from '@capacitor/browser';
+import '@teamhive/lottie-player';
 
 @Component({
   selector: 'app-donate',
