@@ -196,6 +196,10 @@ let HomePage = class HomePage {
                 "icon": "./assets/pranos.png",
             },
             {
+                "name": "Finberg",
+                "icon": "./assets/finberg.png",
+            },
+            {
                 "name": "Fyusion",
                 "icon": "./assets/fyusion.png",
             },

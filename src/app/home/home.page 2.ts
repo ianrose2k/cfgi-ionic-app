@@ -131,7 +131,7 @@ export class HomePage implements OnInit{
     },
     {
       "name": "Finberg",
-      "icon": "./assets/finberg.png"
+      "icon": "./assets/finberg.png",
     },
     {
       "name": "Fyusion",
