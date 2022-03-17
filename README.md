@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing<br/>
 Clone the repository<br/>
 We built our app using Ionic. Make sure your machine has Ionic installed. <br/>
-Run 'expo start' in the root directory, from terminal to start the project. <br/>
+Run 'ionic serve' in the root directory, from terminal to start the project. <br/>
 Install dependencies that the project requires.<br/><br/>
 
 
@@ -25,7 +25,7 @@ Install dependencies that the project requires.<br/><br/>
 
 ### Versioning
 <br/>
-Version 0.01 - March 18 2022 <br/><br/>
+Version 1.0 - March 18 2022 <br/><br/>
 
 ### Authors
 Ionic Application development (October 2021 - March 2022):<br>
@@ -60,10 +60,6 @@ The following sections will describe the flow of the app from both the front-end
 The navigation bar at the bottom of the screen is the main way the user accesses the major components, which are Home, Jobs, Legal, Financial, and Donate. Each major component, along with its sub-components, is placed under its respective stack navigator, which defines the order that the components can be navigated to. For example, the Home component and the Profile component are placed under HomeStack because when the user selects the "Home" tab in the bottom tab navigator, they are taken to the HomeStack, which sets HomeScreen as the main component, and because the user can only access their Profile via the HomeScreen. It's easier to see this hierarchial structure by reading through the code than reading this document. In every screen, there will always be a header that will display the logo, a back button, and a logout symbol. The back button will take the user to the previous component they were on. <br/>
 
 Beyond including new components and subsequently adding new or changing each of the stack navigators, there isn't much more to add to the navigation.
-
-##### Code Sources
-
-- Ionicons: [https://ionic.io/ionicons]
 
 ### Login, Signup, and Password Resetting ("sign-up","login","forgot-password")
 
@@ -137,7 +133,7 @@ Future features this feature could or should have, from most to least important:
 - Allow for multiple expertise dropdown selection search
 
 ##### How to get the specific link for CalendlyScreen:
-1. Get the attorney’s embedded Calendly link code. The directions on how to get this link is provided within a short video located in the CFGI INF 191 Capstone Google Drive, in ‘Final Deliverable’ under “Other Resources”.
+1. Get the attorney’s embedded Calendly link code. The directions on how to get this link is provided within a short video located in the CFGI INF 191 Capstone Google Drive, in ‘documentation'. Linked here: https://drive.google.com/file/d/1n_pyaxTl7vPluqlV34N3yi4Qf3dUxn96/view?usp=sharing 
 2. To use the WebView component, first create an external html file with the embedded Calendly link within the body tag of the html file.
 3. Then, using the Amazon AWS web hosting service, create a bucket and upload the html file within. Make sure to make the bucket’s permissions and restriction to public so that the app can have access to the link. 
 4. Then, AWS will provide an external link that points to the hosted html file.
@@ -145,9 +141,13 @@ Future features this feature could or should have, from most to least important:
 
 ## Future of the App
 
-As of writing this, the app has yet to be deployed on the Apple App Store and Google Play Store. CFGI is a verified Google Play Store Developer, so we can actually deploy the app right now on Android. However, the app needs be user-tested first before that happens. We also still need to be verified Apple Store Developers, which is unfortunately much more difficult due to the whopping $99 a year we have to pay. <br/>
+As of writing this, the app has yet to be deployed on the Apple App Store and Google Play Store. CFGI is a verified Google Play Store Developer, so we can actually deploy the app right now on Android. However, the app needs be user-tested first before that happens. We have submitted a few times to the app store, but we need to become an approved non-profit to accept donations. <br/>
 We're also working on fully integrating the backend database with the front end, in hoping we can continue to futher the development of the application, and deploy on app stores.<br/><br/>
-To the future developers, these future changes described both here and earlier for each component seem like a lot (and there are). But we believe you can do it! We hope that you're able to learn Ionic faster than we did through this README and existing code, and we hope that you can make the app a lot better than what we have right now.
+To the future developers, these future changes described both here and earlier for each component seem like a lot (and there are). But we believe you can do it! We hope that you're able to learn Ionic faster than we did through this README and existing code, and we hope that you can make the app a lot better than what we have right now. There is a list of problems located in the CFGI google drive here: https://docs.google.com/document/d/1yzCZnbyaOejx5WB_vGKzghCbG4wnDaPXIHbt38gBm_w/edit?usp=sharing 
 
 ### Privacy Policy
 https://www.gdprprivacynotice.com/live.php?token=MY2nZE9ibLK8ThWkeyJiWHLzbYUFzZDB 
+
+##### Code Sources
+
+- Ionicons: [https://ionic.io/ionicons]
