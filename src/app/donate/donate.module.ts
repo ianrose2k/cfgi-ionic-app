@@ -9,6 +9,8 @@ import { DonatePageRoutingModule } from './donate-routing.module';
 
 import { DonatePage } from './donate.page';
 
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { DonatePage } from './donate.page';
     LottieAnimationViewModule,
     DonatePageRoutingModule
   ],
-  declarations: [DonatePage]
+  declarations: [DonatePage],
+  providers: [InAppBrowser]
 })
 export class DonatePageModule {}
 
